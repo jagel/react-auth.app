@@ -1,0 +1,76 @@
+.form{
+    display: flex;
+    justify-content: center;
+}
+.form-login-group{
+    margin-top: 50px;
+    padding: 20px;
+    border:solid;
+    border-width: thin;    
+    border-color:rgb(15, 9, 34);
+    border-radius: 50px;
+    min-width: 350px;
+}
+
+.form-logo{
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    margin: 25px 0px 25px 0px;
+}
+
+.login-logo{
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+}
+
+.logo-img{
+    height: 100px;
+    width: 100px;
+}
+
+.form-logo > label{
+    text-align: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 28px;
+}
+
+.form-login-group{
+    display: flex;
+    flex-flow:column;
+    justify-content: space-between;    
+}
+
+.form-user{
+    margin: 10px 0px 10px 0px;
+}
+.form-user div{
+    width: 100%;
+}
+
+.form-password{
+    margin: 10px 0px 10px 0px;
+}
+
+.form-password div{
+    width: 100%;
+}
+
+.form-signin{
+    display:flex;
+    margin: 20px 0px 20px 0px;
+}
+.form-signin > button{
+    width: 100%;
+}
+
+.form-routes{
+    display:flex;
+    flex-flow:column;
+}
+
+.form-footer{
+    width: 100%;
+    text-align: center;
+}

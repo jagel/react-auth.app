@@ -68,3 +68,11 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+### Documentation 
+
+React routing types 
+
+- **react-router**: the core library
+- **react-router-dom**: a variant of the core library meant to be used for web applications
+- **react-router-native**: a variant of the core library used with react native in the development of Android and iOS applications.
