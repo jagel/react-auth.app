@@ -1,5 +1,5 @@
 export function Home(){
     return(
-        <div>Weolcom to this page</div>
+        <div>Welcome to this page</div>
     );
 }
