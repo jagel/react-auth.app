@@ -1,0 +1,70 @@
+.title{
+    width: 100%;
+    text-align:center;
+    font-size: 35px;
+    font-family: monospace;
+    color: #040318;
+}
+
+.header{
+    display: flex;
+    flex-flow: row;
+    flex-direction: row;
+    background-color: #040318;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 50px;
+}
+
+.header-content{
+    text-align: center;
+    align-self: center;
+    width: 50%;
+    font-family: monospace;
+    font-size: 35px;
+    color: white;
+}
+
+.header-content p {
+    margin:15px;
+    font-family: sans-serif;
+}
+
+.header-logo{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.header-logo img{   
+    align-self: center;
+    height: 260px;
+}
+
+.jagel{
+    display:flex;
+    width: 100%;
+    flex-direction:row;
+}
+
+.jagel-logo{
+    align-self: center;
+    justify-content:center;
+    width: 50%;
+}
+
+.jagel-logo img{
+    height: 100px;
+    width: 100%;
+}
+
+.jagel-text{
+    text-align: center;
+    align-self: center;
+    width: 50%;
+    font-family: monospace;
+    font-size: 25px;
+}

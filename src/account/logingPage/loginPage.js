@@ -1,8 +1,8 @@
 import React from 'react';
 import Login from './components/login';
-import logo from '../../logo.svg';
 import { Button } from '@material-ui/core';
 import { Link } from 'react-router-dom';
+import jagelLogo from '../../src/img/jagelLogo.svg';
 
 class LoginPage extends React.Component
 {
@@ -40,8 +40,9 @@ class LoginPage extends React.Component
         
                         <div className="form-logo">
                             <div className="login-logo">
-                                <img className="logo-img" src={logo} />
+                                <img className="logo-img" src={jagelLogo} />
                             </div>
+                            <br />
                             <label>Sign in</label>
                             <label>{this.state.userName}</label>
                         </div>
