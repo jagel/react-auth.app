@@ -1,7 +1,7 @@
 import React from 'react';
 import { Container } from '@material-ui/core';
-import jagelLogo from '../../src/img/jagelLogo.svg';
-import mobile from '../../src/img/mobile.png';
+import jagelLogo from '../../assets/img/jagelLogo.svg';
+import mobile from '../../assets/img/mobile.png';
 
 import './homepage.css'
 
@@ -10,10 +10,10 @@ export function Home(){
     <Container fixed>
     <div className="page">
         <div className="title">
-            <h1>Point of Sale</h1>
+            <h1>POINT OF SALE</h1>
         </div>
-        <div className="header">            
-            <div className="header-content">                
+        <div className="header">
+            <div className="header-content">
                 <p><label>Web platform to increase performance and reduce response time</label></p>
                 <p><small>Small application with big changes</small></p>
             </div>
@@ -22,7 +22,7 @@ export function Home(){
             </div>
         </div>
 
-        <div className="jagel">
+        <div className="jagel fade-in">
             <div className="jagel-logo">
                 <img src={jagelLogo} />
             </div>

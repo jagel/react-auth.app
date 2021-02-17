@@ -1,3 +1,7 @@
+.label-username{
+    font-family: GothamPro;
+}
+
 .form{
     display: flex;
     justify-content: center;
